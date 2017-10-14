@@ -9,7 +9,7 @@ body{
 }
 
 footer{
-	background-color: darkkhaki;
+	background-color: rgba(0, 0, 0, 0.63);
 	position:absolute;
 	bottom: 0;
 	overflow: hidden;
@@ -19,16 +19,40 @@ footer{
 /*standdard eliment styles*/
 ul{
 	list-style: none;
+	background-color: #343d46;
+	background-color: rgba(52, 61, 70, 0.41);
+	margin: 0;
+	padding: 5px;
+	font-weight: bold;
+}
+li:hover{
+	text-shadow: 0 0 1px;
 }
 
 ul li{
 	display: inline-block;
+    width: 19%;
+    text-align: center;
+}
+
+nav{
+	padding-top: 5px;
 }
 
 /*specific selectors*/
 #wrapper {
 	width: 80%;
 	height: 100%;
-	background-color: #f7f7f7;
 	margin: 0 auto;
+	color: white;
+}
+
+#info{
+	margin-left: 10%;
+}
+
+
+/*general selectors*/
+.textCenter{
+	text-align: center;
 }

@@ -1,0 +1,43 @@
+body {
+	background-image: url("Oldschoolbackground.jpg");
+}
+
+h1 {
+	text-align:center;
+	font-size: 100px;
+}
+
+nav{
+	text-align:center;
+}
+	
+
+p {
+	text-align:center; 
+	font-family: sans serif;
+	font-weight: bold;
+	
+}
+
+figure {
+	display: flex;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 40px;
+    margin-right: 40px;
+	justify-content: center;
+}	
+
+ul {
+	text-align:left;
+}
+
+li{
+	color: blue;
+	text-decoration: underline;
+}
+
+#contents{
+    font-size:35px;
+}
+

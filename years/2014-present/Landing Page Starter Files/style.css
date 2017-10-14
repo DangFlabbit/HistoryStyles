@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+
+html,body{
+	margin: 0 ;
+	padding: 0 ;
+	height: 100%;
+	width: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('mountain.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro{
+	height:100%;
+	width:100%;
+	margin:auto;
+	background-image: url("milkyway.jpg") ;
+	top: 0;
+	display: table;
+	background-size:cover;
+}
+
+.intro .inner{
+	display:table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width:0;
+}
+
+.content{
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 28%;
+}
+
+.content h1{
+	font-family:'Yantramanav',sans-serif;
+	font-size: 600%;
+	font-weight: 100;
+	color:#F1E4FF;
+	line-height:70%;
+}
+
+.button{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 135%;
+	font-weight: 400;
+	color:#DFDFDF;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding: 10px 20px;
+}
+
+#firstbox{
+	height:auto;
+	background-image: url("blue-gradient-background-6553.jpeg");
+	padding: 2%;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+	font-size:150%;
+	line-height:120%;
+	color:#F1E4FF;
+}
+	
+ul{
+	list-style: none;
+	height:auto;
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+	background-image: url("blue-gradient-background-6553.jpeg");
+	font-weight: 400;
+	font-size:100%;
+	color: #F1E4FF;
+	justify-content:center;
+}
+
+ul li{
+	display: inline-flex;
+	padding: 1%;
+	margin:auto;
+}
+
+li:hover{
+	text-shadow: 0 0 1px;
+}
+
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+.content{
+	padding-bottom: 30%;
+}
+.content h1{
+	font-size: 450%;
+}
+.button{
+	font-size: 130%;
+	padding: 9px 17px;
+}
+
+@media screen and (max-width: 768px) {
+.content{
+	padding-bottom: 40%;
+}
+.content h1{
+	font-size: 300%;
+}
+.button{
+	font-size: 100%;
+	padding: 9px 17px;
+
+}
+
+ul li{
+	padding: 2%;
+}
+p{
+	font-size:120%;
+	line-height:100%;
+}
+
+
+@media screen and (max-width: 480px) {
+.content{
+	padding-bottom: 50%;
+}
+.content h1{
+	font-size: 250%;
+}
+.button{
+	font-size: 100%;
+	padding: 6px 14px;
+
+}
+p{
+	font-size:120%;
+	line-height:100%;
+}
+
+ul li{
+	padding: 1%;
+}
+}
